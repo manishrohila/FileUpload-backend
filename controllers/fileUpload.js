@@ -19,8 +19,6 @@ exports.localFileUpload = async (req, res) => {
     catch (error) {
         console.log(error);
     }
-
-
 }
 async function uploadFileToCloudinary(file, folder,quality) {
     const options = { folder };
